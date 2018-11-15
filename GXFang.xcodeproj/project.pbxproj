@@ -8,24 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		1A420387219188C800CCA4CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A420386219188C800CCA4CB /* AppDelegate.m */; };
-		1A42038A219188C800CCA4CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A420389219188C800CCA4CB /* ViewController.m */; };
 		1A42038D219188C800CCA4CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A42038B219188C800CCA4CB /* Main.storyboard */; };
 		1A42038F219188C800CCA4CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A42038E219188C800CCA4CB /* Assets.xcassets */; };
 		1A420392219188C800CCA4CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A420390219188C800CCA4CB /* LaunchScreen.storyboard */; };
 		1A420395219188C800CCA4CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A420394219188C800CCA4CB /* main.m */; };
+		1A864B66219D58590099E1CF /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A864B65219D58590099E1CF /* MainViewController.m */; };
+		1A864B69219D5A2D0099E1CF /* GXBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A864B68219D5A2D0099E1CF /* GXBaseViewController.m */; };
+		1A864B6C219D5A5C0099E1CF /* GXHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A864B6B219D5A5C0099E1CF /* GXHomeViewController.m */; };
+		1A864B6F219D5A940099E1CF /* GXDiscoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A864B6E219D5A940099E1CF /* GXDiscoveryViewController.m */; };
+		1A864B72219D5AAE0099E1CF /* GXFollowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A864B71219D5AAE0099E1CF /* GXFollowViewController.m */; };
+		1A864B75219D5AD90099E1CF /* GXUserCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A864B74219D5AD90099E1CF /* GXUserCenterViewController.m */; };
+		1A864B78219D5F580099E1CF /* GXNavigationBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A864B77219D5F580099E1CF /* GXNavigationBaseController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1A420382219188C800CCA4CB /* GXFang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GXFang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A420385219188C800CCA4CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1A420386219188C800CCA4CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1A420388219188C800CCA4CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1A420389219188C800CCA4CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1A42038C219188C800CCA4CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A42038E219188C800CCA4CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A420391219188C800CCA4CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A420393219188C800CCA4CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A420394219188C800CCA4CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A864B64219D58590099E1CF /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		1A864B65219D58590099E1CF /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		1A864B67219D5A2D0099E1CF /* GXBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXBaseViewController.h; sourceTree = "<group>"; };
+		1A864B68219D5A2D0099E1CF /* GXBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXBaseViewController.m; sourceTree = "<group>"; };
+		1A864B6A219D5A5C0099E1CF /* GXHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXHomeViewController.h; sourceTree = "<group>"; };
+		1A864B6B219D5A5C0099E1CF /* GXHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXHomeViewController.m; sourceTree = "<group>"; };
+		1A864B6D219D5A940099E1CF /* GXDiscoveryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXDiscoveryViewController.h; sourceTree = "<group>"; };
+		1A864B6E219D5A940099E1CF /* GXDiscoveryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXDiscoveryViewController.m; sourceTree = "<group>"; };
+		1A864B70219D5AAE0099E1CF /* GXFollowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXFollowViewController.h; sourceTree = "<group>"; };
+		1A864B71219D5AAE0099E1CF /* GXFollowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXFollowViewController.m; sourceTree = "<group>"; };
+		1A864B73219D5AD90099E1CF /* GXUserCenterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXUserCenterViewController.h; sourceTree = "<group>"; };
+		1A864B74219D5AD90099E1CF /* GXUserCenterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXUserCenterViewController.m; sourceTree = "<group>"; };
+		1A864B76219D5F580099E1CF /* GXNavigationBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXNavigationBaseController.h; sourceTree = "<group>"; };
+		1A864B77219D5F580099E1CF /* GXNavigationBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXNavigationBaseController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +78,20 @@
 			children = (
 				1A420385219188C800CCA4CB /* AppDelegate.h */,
 				1A420386219188C800CCA4CB /* AppDelegate.m */,
-				1A420388219188C800CCA4CB /* ViewController.h */,
-				1A420389219188C800CCA4CB /* ViewController.m */,
+				1A864B64219D58590099E1CF /* MainViewController.h */,
+				1A864B65219D58590099E1CF /* MainViewController.m */,
+				1A864B67219D5A2D0099E1CF /* GXBaseViewController.h */,
+				1A864B68219D5A2D0099E1CF /* GXBaseViewController.m */,
+				1A864B76219D5F580099E1CF /* GXNavigationBaseController.h */,
+				1A864B77219D5F580099E1CF /* GXNavigationBaseController.m */,
+				1A864B6A219D5A5C0099E1CF /* GXHomeViewController.h */,
+				1A864B6B219D5A5C0099E1CF /* GXHomeViewController.m */,
+				1A864B6D219D5A940099E1CF /* GXDiscoveryViewController.h */,
+				1A864B6E219D5A940099E1CF /* GXDiscoveryViewController.m */,
+				1A864B70219D5AAE0099E1CF /* GXFollowViewController.h */,
+				1A864B71219D5AAE0099E1CF /* GXFollowViewController.m */,
+				1A864B73219D5AD90099E1CF /* GXUserCenterViewController.h */,
+				1A864B74219D5AD90099E1CF /* GXUserCenterViewController.m */,
 				1A42038B219188C800CCA4CB /* Main.storyboard */,
 				1A42038E219188C800CCA4CB /* Assets.xcassets */,
 				1A420390219188C800CCA4CB /* LaunchScreen.storyboard */,
@@ -97,6 +127,7 @@
 		1A42037A219188C700CCA4CB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = GX;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = GX;
 				TargetAttributes = {
@@ -142,9 +173,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A42038A219188C800CCA4CB /* ViewController.m in Sources */,
+				1A864B6F219D5A940099E1CF /* GXDiscoveryViewController.m in Sources */,
+				1A864B66219D58590099E1CF /* MainViewController.m in Sources */,
+				1A864B6C219D5A5C0099E1CF /* GXHomeViewController.m in Sources */,
 				1A420395219188C800CCA4CB /* main.m in Sources */,
+				1A864B69219D5A2D0099E1CF /* GXBaseViewController.m in Sources */,
+				1A864B78219D5F580099E1CF /* GXNavigationBaseController.m in Sources */,
+				1A864B75219D5AD90099E1CF /* GXUserCenterViewController.m in Sources */,
 				1A420387219188C800CCA4CB /* AppDelegate.m in Sources */,
+				1A864B72219D5AAE0099E1CF /* GXFollowViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
