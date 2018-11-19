@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A41CBB521A2673400FF37FD /* GXCollectionViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A41CBB421A2673400FF37FD /* GXCollectionViewProxy.m */; };
+		1A41CBB821A267DB00FF37FD /* GXHomeCollectionViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A41CBB721A267DB00FF37FD /* GXHomeCollectionViewProxy.m */; };
 		1A42038D219188C800CCA4CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A42038B219188C800CCA4CB /* Main.storyboard */; };
 		1A42038F219188C800CCA4CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A42038E219188C800CCA4CB /* Assets.xcassets */; };
 		1A420392219188C800CCA4CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A420390219188C800CCA4CB /* LaunchScreen.storyboard */; };
@@ -22,6 +24,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A41CBB321A2673400FF37FD /* GXCollectionViewProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXCollectionViewProxy.h; sourceTree = "<group>"; };
+		1A41CBB421A2673400FF37FD /* GXCollectionViewProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXCollectionViewProxy.m; sourceTree = "<group>"; };
+		1A41CBB621A267DB00FF37FD /* GXHomeCollectionViewProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXHomeCollectionViewProxy.h; sourceTree = "<group>"; };
+		1A41CBB721A267DB00FF37FD /* GXHomeCollectionViewProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXHomeCollectionViewProxy.m; sourceTree = "<group>"; };
 		1A420382219188C800CCA4CB /* GXFang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GXFang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A42038C219188C800CCA4CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A42038E219188C800CCA4CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -109,6 +115,8 @@
 				1A864B7E219D687B0099E1CF /* GXBaseViewController.m */,
 				1A864B7F219D687B0099E1CF /* GXNavigationBaseController.h */,
 				1A864B80219D687B0099E1CF /* GXNavigationBaseController.m */,
+				1A41CBB321A2673400FF37FD /* GXCollectionViewProxy.h */,
+				1A41CBB421A2673400FF37FD /* GXCollectionViewProxy.m */,
 			);
 			path = "Base(基类)";
 			sourceTree = "<group>";
@@ -177,6 +185,8 @@
 			children = (
 				1A864B8D219D687B0099E1CF /* GXHomeViewController.h */,
 				1A864B8E219D687B0099E1CF /* GXHomeViewController.m */,
+				1A41CBB621A267DB00FF37FD /* GXHomeCollectionViewProxy.h */,
+				1A41CBB721A267DB00FF37FD /* GXHomeCollectionViewProxy.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -288,9 +298,11 @@
 				1A864B9D219D687B0099E1CF /* GXHomeViewController.m in Sources */,
 				1A864B9B219D687B0099E1CF /* GXDiscoveryViewController.m in Sources */,
 				1A864B99219D687B0099E1CF /* GXBaseViewController.m in Sources */,
+				1A41CBB821A267DB00FF37FD /* GXHomeCollectionViewProxy.m in Sources */,
 				1A864B9F219D687B0099E1CF /* MainViewController.m in Sources */,
 				1A864B9C219D687B0099E1CF /* GXFollowViewController.m in Sources */,
 				1A864BA0219D687B0099E1CF /* GXUserCenterViewController.m in Sources */,
+				1A41CBB521A2673400FF37FD /* GXCollectionViewProxy.m in Sources */,
 				1A864B98219D687B0099E1CF /* AppDelegate.m in Sources */,
 				1A864B9E219D687B0099E1CF /* main.m in Sources */,
 				1A864B9A219D687B0099E1CF /* GXNavigationBaseController.m in Sources */,
