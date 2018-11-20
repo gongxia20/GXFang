@@ -9,6 +9,7 @@
 #import "GXCollectionViewProxy.h"
 
 @implementation GXCollectionViewProxy
+
 - (instancetype)initWithReuseIdentifier:(NSString *)reuseIdentifier configuration:(void(^)(UICollectionViewCell *cell,id cellData,NSIndexPath *indexPath))cBlock action:(void(^)(UICollectionViewCell *cell,id cellData,NSIndexPath *indexPath))aBlock {
     return 0;
 }
