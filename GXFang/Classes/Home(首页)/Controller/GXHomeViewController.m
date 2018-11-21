@@ -7,6 +7,7 @@
 //
 
 #import "GXHomeViewController.h"
+#import "GXHomeCollectionViewProxy.h"
 
 @interface GXHomeViewController () <UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
 

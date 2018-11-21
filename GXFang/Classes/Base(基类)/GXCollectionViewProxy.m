@@ -10,7 +10,14 @@
 
 @implementation GXCollectionViewProxy
 
-- (instancetype)initWithReuseIdentifier:(NSString *)reuseIdentifier configuration:(void(^)(UICollectionViewCell *cell,id cellData,NSIndexPath *indexPath))cBlock action:(void(^)(UICollectionViewCell *cell,id cellData,NSIndexPath *indexPath))aBlock {
-    return 0;
+- (instancetype)initWithReuseIdentifier:(NSString *)reuseIdentifier configuration:(GXConfigBlock)cBlock action:(GXActionBlock)aBlock; {
+    if (self = [super init]) {
+        self.reuseIdentifier = reuseIdentifier;
+        _cellActionBlock = aBlock;
+        _cellConfigBlock = cBlock;
+        
+        _colloctionView = [UICollectionView new];
+    }
+    return self;
 }
 @end
