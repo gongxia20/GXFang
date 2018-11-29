@@ -43,24 +43,6 @@
     return cell;
 }
 
-//
-//# pragma mark -- UICollectionViewDelegateFlowLayout
-//- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
-//    return CGSizeMake(collectionView.bounds.size.width, collectionView.bounds.size.height);
-//}
-//
-//- (UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout insetForSectionAtIndex:(NSInteger)section {
-//    return UIEdgeInsetsZero;
-//}
-//
-//- (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout minimumLineSpacingForSectionAtIndex:(NSInteger)section {
-//    return 0;
-//}
-//
-//- (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout minimumInteritemSpacingForSectionAtIndex:(NSInteger)section {
-//    return 0;
-//}
-
 # pragma mark --collectionView delegate
 //- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
 //
