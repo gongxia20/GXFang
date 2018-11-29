@@ -20,4 +20,18 @@
     }
     return self;
 }
+
+// 懒加载
+- (UICollectionView *)colloctionView {
+    if (!_colloctionView) {
+        // 设置layout UICollectionViewLayout 跟 UICollectionViewFlowLayout区别?
+        UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
+        // 设置成滚动水平布局
+        layout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
+        
+        _colloctionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 100, UIScreen.mainScreen.bounds.size.width, 200) collectionViewLayout:layout];
+        
+    }
+    return _colloctionView;
+}
 @end
