@@ -34,5 +34,6 @@
         _colloctionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 100, UIScreen.mainScreen.bounds.size.width, 200) collectionViewLayout:layout];
     }
     return _colloctionView;
+    
 }
 @end
